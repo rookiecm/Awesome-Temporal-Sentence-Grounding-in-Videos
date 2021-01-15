@@ -108,6 +108,8 @@ Markdown format:
 * [Weakly-Supervised Video Moment Retrieval via Semantic Completion Network](https://ojs.aaai.org/index.php/AAAI/article/view/6820) - Zhijie Lin et al, `AAAI 2020`.
 * [Look Closer to Ground Better: Weakly-Supervised Temporal Grounding of Sentence in Video](https://arxiv.org/pdf/2001.09308.pdf) - Zhenfang Chen et al, `arXiv`.
 * [VLANet: Video-Language Alignment Network for Weakly-Supervised Video Moment Retrieval](https://arxiv.org/pdf/2008.10238.pdf) - Minuk Ma et al, `ECCV 2020`.
+* [Counterfactual Contrastive Learning for Weakly-Supervised Vision-Language Grounding](https://proceedings.neurips.cc/paper/2020/file/d27b95cac4c27feb850aaa4070cc4675-Paper.pdf) - Zhu Zhang et al, `NIPS 2020`.
+
 
 
 ## Dataset
