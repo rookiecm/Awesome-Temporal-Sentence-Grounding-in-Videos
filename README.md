@@ -115,6 +115,10 @@ Markdown format:
 
 * [Weakly-Supervised Video Moment Retrieval via Semantic Completion Network](https://ojs.aaai.org/index.php/AAAI/article/view/6820) - Zhijie Lin et al, `AAAI 2020`.
 
+  **Motivation**：The latent attention weights without extra supervision usually focus on the most discriminative but small regions (Singh and Lee 2017) instead of covering complete regions. 
+
+  **Methodology**: (a) Proposal Generation Module: Transformer-based score assignment and decay rate Top-K selection. (b) Semantic Completion Module. (Masked language tokens and the video sequences input.) (c) Reconstruction Loss and Rank Loss.
+
 * [Look Closer to Ground Better: Weakly-Supervised Temporal Grounding of Sentence in Video](https://arxiv.org/pdf/2001.09308.pdf) - Zhenfang Chen et al, `arXiv`.
 
 * [VLANet: Video-Language Alignment Network for Weakly-Supervised Video Moment Retrieval](https://arxiv.org/pdf/2008.10238.pdf) - Minuk Ma et al, `ECCV 2020`.
@@ -155,7 +159,6 @@ Markdown format:
 |      PFGA       |    75.25    |    51.28    |    33.04    |    19.26    |      -      |      -      |      -      |      -      |   PF   |
 | WSDEC-X(Weakly) |    62.7     |    42.0     |    23.3     |      -      |      -      |      -      |      -      |      -      |        |
 | WSLLN (Weakly)  |    75.4     |    42.8     |    22.7     |      -      |      -      |      -      |      -      |      -      |        |
-| CBP           |      -      |    17.80    |    35.76    |      17.80      |      -      |      77.63      |      65.89      |      46.20      |        |
 
 
 
@@ -176,6 +179,8 @@ Markdown format:
 | TripNet |      -      |    51.33    |    36.61    |    14.50    |      -      |      -      |      -      |      -      |   RL   |
 |  ExCL   |      -      |    65.1     |    44.1     |    23.3     |      -      |      -      |      -      |      -      |   RL   |
 |  PFGA   |      -      |    67.53    |    52.02    |    33.74    |      -      |      -      |      -      |      -      |   PF   |
+
+
 
 #### DiDeMo
 
