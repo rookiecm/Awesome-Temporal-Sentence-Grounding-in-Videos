@@ -102,12 +102,23 @@ Markdown format:
 ### 2020
 
 * [Temporally Grounding Language Queries in Videos by Contextual Boundary-aware Prediction](https://arxiv.org/abs/1909.05010) - Jingwen Wang et al, `AAAI 2020`. [[code]](https://github.com/JaywongWang/CBP)
+
+  **Motivation**: The inaccurate temporal boundaries.
+
+  **Methodology**: Propose a novel model that jointly predicts temporal anchors and boundaries at each time step. Boundary Submodule is implemented with a simple binary classifier with cross-entropy loss. The final score is achieved via  Boundary Score Fusion.
+
 * [Learning 2D Temporal Localization Networks for Moment Localization with Natural Language](https://arxiv.org/abs/1912.03590) - Songyang Zhang et al, `AAAI 2020`. [[code1]](https://github.com/microsoft/2D-TAN)[[code2]](https://github.com/ChenJoya/2dtan)
+
 * [Multi-Scale 2D Temporal Adjacent Networks for Moment Localization with Natural Language](https://arxiv.org/pdf/2012.02646.pdf) - Songyang Zhang et al, `TPAMI submission`.
+
 * [Jointly Cross- and Self-Modal Graph Attention Network for Query-Based Moment Localization](https://dl.acm.org/doi/pdf/10.1145/3394171.3414026) - Daizong Liu et al, `ACM MM`. [[code]](https://github.com/liudaizong/CSMGAN)
+
 * [Weakly-Supervised Video Moment Retrieval via Semantic Completion Network](https://ojs.aaai.org/index.php/AAAI/article/view/6820) - Zhijie Lin et al, `AAAI 2020`.
+
 * [Look Closer to Ground Better: Weakly-Supervised Temporal Grounding of Sentence in Video](https://arxiv.org/pdf/2001.09308.pdf) - Zhenfang Chen et al, `arXiv`.
+
 * [VLANet: Video-Language Alignment Network for Weakly-Supervised Video Moment Retrieval](https://arxiv.org/pdf/2008.10238.pdf) - Minuk Ma et al, `ECCV 2020`.
+
 * [Counterfactual Contrastive Learning for Weakly-Supervised Vision-Language Grounding](https://proceedings.neurips.cc/paper/2020/file/d27b95cac4c27feb850aaa4070cc4675-Paper.pdf) - Zhu Zhang et al, `NIPS 2020`.
 
 
@@ -144,6 +155,10 @@ Markdown format:
 |      PFGA       |    75.25    |    51.28    |    33.04    |    19.26    |      -      |      -      |      -      |      -      |   PF   |
 | WSDEC-X(Weakly) |    62.7     |    42.0     |    23.3     |      -      |      -      |      -      |      -      |      -      |        |
 | WSLLN (Weakly)  |    75.4     |    42.8     |    22.7     |      -      |      -      |      -      |      -      |      -      |        |
+| CBP           |      -      |    17.80    |    35.76    |      17.80      |      -      |      77.63      |      65.89      |      46.20      |        |
+
+
+
 
 #### Charades-STA
 
