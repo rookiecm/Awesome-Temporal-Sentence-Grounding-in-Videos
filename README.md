@@ -80,10 +80,26 @@ Markdown format:
 ### 2019
 
 - [Multilevel Language and Vision Integration for Text-to-Clip Retrieval](<https://arxiv.org/abs/1804.05113>) - H. Xu et al, `AAAI 2019`. [[code]](<https://github.com/VisionLearningGroup/Text-to-Clip_Retrieval>)
+
 - [Read, Watch, and Move: Reinforcement Learning for Temporally Grounding Natural Language Descriptions in Videos](https://arxiv.org/abs/1901.06829) - He, Dongliang et al, `AAAI 2019`.
-- [To Find Where You Talk: Temporal Sentence Localization in Video with Attention Based Location Regression](http://arxiv.org/abs/1804.07014) - Y. Yuan et al, `AAAI 2019`. [[code]](https://github.com/yytzsy/ABLR_code)
+
+-  [To Find Where You Talk: Temporal Sentence Localization in Video with Attention Based Location Regression](http://arxiv.org/abs/1804.07014) - Y. Yuan et al, `AAAI 2019`. [[code]](https://github.com/yytzsy/ABLR_code)
+
+  **Motivation**：A co-attention mechanism.
+
+  **Methodology**: (a) Contextual Incorporated Feature Encoding using Bi-LSTM. (b) Multi-Modal Co-Attention Interaction: three times attention modulations. (c) Attention Based Coordinates Prediction: predictions using the attended visual and language features or the obtained visual attention weight.
+
 - [Semantic Proposal for Activity Localization in Videos via Sentence Query](http://yugangjiang.info/publication/19AAAI-actionlocalization.pdf) - S. Chen et al, `AAAI 2019`.
+
+  **Motivation**：Previous proposal-based methods use anchors which only considers the class-agnostic "actionness" of video snippets. Here we integrate the sentence semantic information into the proposal generation process.
+
+  **Methodology**: (a) Video Concept Detection. Select visual concepts according to the frequencies. Since no spatial bounding box annotations, we train with NIL. (b) Semantic Activity Proposal generation based on grouping the visual-semantic correlation scores. (c) Proposal Evaluation and Refinement.
+
 - [MAN: Moment Alignment Network for Natural Language Moment Retrieval via Iterative Graph Adjustment](https://arxiv.org/abs/1812.00087) - Da Zhang et al, `CVPR 2019`. 
+
+  **Motivation**：Monment Alignment and single stage forward network (maybe inspired by SSD or SSTD)
+
+  **Methodology**: (a) Language Encoder uses LSTM to generate the Dynamic Filters. (b) Video Encoder to generate multi-scale candidate moments. (c) Iterative Graph Adjustment Network to update these proposals in a GCN-like manner.
 
 * [Weakly Supervised Video Moment Retrieval From Text Queries](<https://arxiv.org/abs/1904.03282>) - N. C. Mithun et al, `CVPR 2019`. 
 * [Language-Driven Temporal Activity Localization_ A Semantic Matching Reinforcement Learning Model](<http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Language-Driven_Temporal_Activity_Localization_A_Semantic_Matching_Reinforcement_Learning_Model_CVPR_2019_paper.pdf>) - W. Wang et al, `CVPR 2019`. 
