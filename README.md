@@ -121,6 +121,10 @@ Markdown format:
 
 * [Look Closer to Ground Better: Weakly-Supervised Temporal Grounding of Sentence in Video](https://arxiv.org/pdf/2001.09308.pdf) - Zhenfang Chen et al, `arXiv`.
 
+  **Motivation**: Ground in a coarse-to-fine manner.
+
+  **Methodology**: (a) Feature Encoder by Bi-LSTM for both video and language. (b) Coarse stage: proposal generation and compute the similarity to the sentence feature with classification stream and selection stream. (c) Fine stage: frame level feature similarity compution. (d) Training with MIL (cross entropy loss and ranking loss).
+
 * [VLANet: Video-Language Alignment Network for Weakly-Supervised Video Moment Retrieval](https://arxiv.org/pdf/2008.10238.pdf) - Minuk Ma et al, `ECCV 2020`.
 
 * [Counterfactual Contrastive Learning for Weakly-Supervised Vision-Language Grounding](https://proceedings.neurips.cc/paper/2020/file/d27b95cac4c27feb850aaa4070cc4675-Paper.pdf) - Zhu Zhang et al, `NIPS 2020`.
