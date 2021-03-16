@@ -145,7 +145,31 @@ Markdown format:
 
 * [Counterfactual Contrastive Learning for Weakly-Supervised Vision-Language Grounding](https://proceedings.neurips.cc/paper/2020/file/d27b95cac4c27feb850aaa4070cc4675-Paper.pdf) - Zhu Zhang et al, `NIPS 2020`.
 
+* [Span-based Localizing Network for Natural Language Video Localization](https://arxiv.org/pdf/2004.13931.pdf) - Hao Zhang et al, ACL 2020`. [[code]](https://github.com/IsaacChanghau/VSLNet)
 
+  **Motivation**:  By treating the video as a text passage and the target moment as the answer span, NLVL shares significant similarities with span-based question answering (QA) task.
+
+  **Methodology**: In my opinion, it just directly predicts the start and the end temporal boundary.
+
+* [Rethinking the Bottom-Up Framework for Query-based Video Localization](https://zjuchenlong.github.io/papers/AAAI_2020.pdf) - Long Chen et al, AAAI 2020`. [[code]](https://github.com/IsaacChanghau/VSLNet)
+
+  **Motivation:** We argue that the performance of bottom-up framework is severely underestimated by current unreasonable designs, including both the backbone and head network.
+
+  **Methodology:** For backbone, use Graph to model the multi-level features. For head network, take the dense regression manner (FCOS).
+
+  
+
+### 2021
+
+* [Boundary Proposal Network for Two-Stage Natural Language Video Localization](https://arxiv.org/pdf/2103.08109.pdf) - Shaoning Xiao et al, `AAAI 2021`.
+
+  **Motivation**:  Two stage methods are susceptible to the heuristic rules and can not handle variant length; One stage methods are lack of the segment-level interactions.
+
+  **Methodology**: (1) Proposal generation using 2D-TAN to generate sparse segment candidates. (2) Compute the Text Matching Score.
+
+* 
+
+  
 
 ## Dataset
 
